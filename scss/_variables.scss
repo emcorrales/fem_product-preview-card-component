@@ -1,11 +1,11 @@
 // Primary Colors
-$primaryDarkCyan: hsl(158, 36%, 37%);
-$primaryCream: hsl(30, 38%, 92%);
+$primary: hsl(158, 36%, 37%);
+$defaultBackground: hsl(30, 38%, 92%);
 
 // Neutral Colors
-$neutralVeryDarkBlue: hsl(212, 21%, 14%);
-$neutralDarkGrayishBlue: hsl(228, 12%, 48%);
-$neutralWhite: hsl(0, 0%, 100%);
+$headerTextColor: hsl(212, 21%, 14%);
+$defaultTextColor: hsl(228, 12%, 48%);
+$contentBackground: hsl(0, 0%, 100%);
 
 // Fonts
 $defaultFontSize: 14px;
@@ -16,3 +16,5 @@ $boldFontWeight: 700;
 
 $headerFont: 'Fraunces', serif;
 $headerFontWeight: 700;
+
+$defaultBorderRadius: 10px;
