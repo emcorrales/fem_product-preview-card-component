@@ -1,12 +1,13 @@
+
 body{
   background-color: $defaultBackground;
   font-family: $defaultFont;
   font-weight: $regularFontWeight;
-  font-size: $defaultFontSize;
   padding: 16px 8px 16px 8px;
 }
 
 p {
+  font-size: $defaultFontSize;
   color: $defaultTextColor;
   margin: 0px;
 }
