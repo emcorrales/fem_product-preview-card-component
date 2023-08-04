@@ -12,7 +12,8 @@ p {
   margin: 0px;
 }
 
-.productImage {
+figure.banner { margin: 0px;}
+figure.banner img {
   width: 100%;
   height: auto;
   border-radius: $defaultBorderRadius $defaultBorderRadius 0px 0px;
