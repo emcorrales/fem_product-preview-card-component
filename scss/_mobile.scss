@@ -11,6 +11,11 @@ p {
   margin: 0rem;
 }
 
+h1 {
+  font-family: $headerFont;
+  font-weight: $boldFontWeight;
+}
+
 main {
   border-radius: $defaultBorderRadius;
   background-color: $contentBackground;
@@ -27,21 +32,18 @@ main {
 
   .productDetails {
     padding: 1.5rem;
+
     p.productCategory { letter-spacing: 3.5px; }
+
     h1.productName {
-      font-family: $headerFont;
-      font-weight: $boldFontWeight;
       color: $headerTextColor;
       margin: 1rem 0rem 1rem 0rem;
     }
+
     .pricing {
       display: flex;
       align-items: center;
-      h1.currentPrice {
-        font-family: $headerFont;
-        font-weight: $boldFontWeight;
-        color: $primary;
-      }
+      h1.currentPrice {color: $primary;}
       p { margin-left: 1.1rem; }
     }
 
