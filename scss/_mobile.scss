@@ -2,13 +2,13 @@ body{
   background-color: $defaultBackground;
   font-family: $defaultFont;
   font-weight: $regularFontWeight;
-  padding: 16px 8px 16px 8px;
+  padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
 p {
   font-size: $defaultFontSize;
   color: $defaultTextColor;
-  margin: 0px;
+  margin: 0rem;
 }
 
 main {
@@ -16,39 +16,40 @@ main {
   background-color: $contentBackground;
 
   figure {
-    margin: 0px;
+    margin: 0rem;
     
     img {
       width: 100%;
       height: auto;
-      border-radius: $defaultBorderRadius $defaultBorderRadius 0px 0px;
+      border-radius: $defaultBorderRadius $defaultBorderRadius 0rem 0rem;
     }
   }
 
   .productDetails {
-    padding: 25px;
+    padding: 1.5rem;
     p.productCategory { letter-spacing: 3.5px; }
     h1.productName {
       font-family: $headerFont;
-      font-weight: $headerFontWeight;
+      font-weight: $boldFontWeight;
       color: $headerTextColor;
+      margin: 1rem 0rem 1rem 0rem;
     }
     .pricing {
       display: flex;
       align-items: center;
       h1.currentPrice {
         font-family: $headerFont;
-        font-weight: $headerFontWeight;
+        font-weight: $boldFontWeight;
         color: $primary;
       }
-      p { margin-left: 30px; }
+      p { margin-left: 1.1rem; }
     }
 
     .addToCart {
       background-color: $primary;
       width: 100%;
       height: 50px;
-      border-radius: 10px;
+      border-radius: $defaultBorderRadius;
       border: none;
       color: $contentBackground;
       font-weight: $boldFontWeight;
