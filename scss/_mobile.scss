@@ -20,17 +20,14 @@ main {
   border-radius: $defaultBorderRadius;
   background-color: $contentBackground;
 
-  figure {
-    margin: 0rem;
-    
-    img.mobile-banner {
-      display: block; 
-      width: 100%;
-      height: auto;
-      border-radius: $defaultBorderRadius $defaultBorderRadius 0rem 0rem;
+  img.mobile-banner {
+    display: block; 
+    width: 100%;
+     height: auto;
+    border-radius: $defaultBorderRadius $defaultBorderRadius 0rem 0rem;
     } 
-    img.desktop-banner { display: none;}  
-  }
+    
+  img.desktop-banner { display: none;}  
 
   .productDetails {
     padding: 1.5rem;
