@@ -1,3 +1,24 @@
 body {
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  height: 50vh;
+  width: 50vw;
+
+  img.mobile-banner { display: none; }
+  img.desktop-banner {
+    width: 50%;
+    display: block;
+    border-radius: $defaultBorderRadius 0rem 0rem $defaultBorderRadius;
+  }
+
+  .productDetails {
+    width: 50%;
+    box-sizing: border-box;
+  }
 }

@@ -23,11 +23,13 @@ main {
   figure {
     margin: 0rem;
     
-    img {
+    img.mobile-banner {
+      display: block; 
       width: 100%;
       height: auto;
       border-radius: $defaultBorderRadius $defaultBorderRadius 0rem 0rem;
-    }
+    } 
+    img.desktop-banner { display: none;}  
   }
 
   .productDetails {
